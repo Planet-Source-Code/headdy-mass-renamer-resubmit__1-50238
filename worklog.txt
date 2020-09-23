@@ -1,0 +1,12 @@
+UPDATES ---------------------
+
+2.01
+Funny how you make one blunder on the Internet, and hundreds of piranhas (?) start to bite... Only proves that many people don't say a thing unless there's a problem.
+
+Anyways, I'm defending my position on the CCRP FolderTreeView control, because I have spent all morning looking for alternatives with source code. None of them were particularly friendly to use (ESPECIALLY the one from VB Accelerator :( ), so I decided to include the OCX anyway. But the bsFrame control (which I wrote) is now in UserControl form - which is something.
+
+Removed some unnecessary files too. :)
+
+
+2.0
+Added an Image Taken On field for JPEG images - special thanks to the author of the ExifHeader class. Also added option to replace characters in file names.

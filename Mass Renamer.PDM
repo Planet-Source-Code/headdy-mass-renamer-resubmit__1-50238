@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\Incomplete projects\Mass Renamer\Package (2)
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Projects\Incomplete projects\Mass Renamer\bsFrame.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\winnt\system32\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Projects\Incomplete projects\Mass Renamer\Mass Renamer.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINNT\system32\tabctl32.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Documents and Settings\Administrator\My Documents\Source Code\Visual Basic\Custom controls\CCRP\ccrpftv6-10\ccrpftv6.ocx=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+D:\Projects\Incomplete projects\Mass Renamer\bsFrame.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Projects\Incomplete projects\Mass Renamer\Mass Renamer.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Documents and Settings\Administrator\My Documents\Source Code\Visual Basic\Custom controls\CCRP\ccrpftv6-10\ccrpftv6.ocx=$(AppPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Projects\Incomplete projects\Mass Renamer\bsFrame.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Incomplete projects\Mass Renamer\Mass Renamer.exe=No
+C:\Documents and Settings\Administrator\My Documents\Source Code\Visual Basic\Custom controls\CCRP\ccrpftv6-10\ccrpftv6.ocx=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Mass Renamer
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Projects\Incomplete projects\Mass Renamer\Package (2)
+ProjectFolder=D:\Projects\Incomplete projects\Mass Renamer
+ServerSideCab=
+File1=D:\Projects\Incomplete projects\Mass Renamer\Package (2)\setup.exe
+File2=D:\Projects\Incomplete projects\Mass Renamer\Package (2)\Setup.Lst
+File3=D:\Projects\Incomplete projects\Mass Renamer\Package (2)\Mass Renamer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Mass Renamer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Mass Renamer]
+Icon1="Mass Renamer.exe"
+Title1=Mass Renamer
+StartIn1=$(AppPath)
+Key1=Icon1
